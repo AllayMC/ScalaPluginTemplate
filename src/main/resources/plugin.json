@@ -1,0 +1,8 @@
+
+{
+    "entrance": "MyPlugin",
+    "name": "ScalaPluginTemplate",
+    "authors": ["harryxi"],
+    "version": "1.0.0"
+  }
+  
