@@ -23,7 +23,7 @@ lazy val root = project
     version := "0.1.0-SNAPSHOT",
     scalaVersion := scala3Version,
     
-    libraryDependencies += "com.github.AllayMC.Allay" % "Allay-API" % "master-SNAPSHOT" % Compilonly,
+    libraryDependencies += "org.allaymc.allay" % "Allay-API" % "master-SNAPSHOT" % Compilonly,
     libraryDependencies += "org.slf4j" % "slf4j-api" % "1.7.32" % Compilonly,
 
     unmanagedClasspath in Compile ++= 
