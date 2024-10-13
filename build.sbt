@@ -15,7 +15,7 @@ lazy val root = project
       "opencollab-repository-maven-releases"
         at "https://repo.opencollab.dev/maven-releases",
       "storehouse" at "https://storehouse.okaeri.eu/repository/maven-public/",
-      "jitpack" at "https://www.jitpack.io/",
+      "jitpack" at "https://jitpack.io/",
     ),
 
     ivyConfigurations += Compilonly,
