@@ -1,4 +1,4 @@
-val scala3Version = "3.5.0"
+val scala3Version = "3.6.2"
 
 val Compilonly = config("Compilonly") hide
 
@@ -21,7 +21,7 @@ lazy val root = project
     ivyConfigurations += Compilonly,
 
     libraryDependencies ++= Seq(
-      "org.allaymc.allay" % "api" % "master-SNAPSHOT" % Compilonly,
+      "org.allaymc.allay" % "api" % "0.1.2" % Compilonly,
     ),
 
     Compile / unmanagedClasspath ++=
